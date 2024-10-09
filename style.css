@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333; /* Set a default text color for better readability */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency for better background visibility */
+    padding: 20px 30px; /* Slightly increased padding for better spacing */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow for more depth */
+    max-width: 400px; /* Limit container width for better presentation on large screens */
+    width: 100%; /* Make it responsive */
+}
+
+input {
+    padding: 10px;
+    width: 100%; /* Input now takes full width */
+    box-sizing: border-box; /* Ensures padding doesn't overflow the container */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px; /* Slightly larger font for better readability */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size for better touch-target on mobile */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+#weatherData {
+    margin-top: 20px;
+}
+
+#weatherData h2, #weatherData p {
+    margin: 10px 0;
+    font-size: 18px; /* Consistent font size for weather data */
+}
+
+#weatherData p {
+    font-size: 16px;
+}
